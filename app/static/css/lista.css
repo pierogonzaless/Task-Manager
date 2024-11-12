@@ -134,3 +134,25 @@ input:focus {
     color: var(--dark);
 }
 
+/* Media query para pantallas pequeñas (dispositivos móviles) */
+@media (max-width: 600px) {
+    .list {
+        max-width: 100%; /* Asegura que la lista ocupe todo el ancho */
+    }
+    #dateNumber {
+        font-size: 24px; /* Ajusta el tamaño de fuente */
+    }
+    #dateText {
+        font-size: 16px; /* Ajusta el tamaño */
+    }
+    .addTaskButton {
+        font-size: 14px; /* Ajusta el tamaño de fuente */
+    }
+    .task {
+        font-size: 12px; /* Ajusta el tamaño */
+        padding: 8px; /* Reduce el padding */
+    }
+    .list h2 {
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+}
+}

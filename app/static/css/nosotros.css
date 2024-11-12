@@ -1,6 +1,4 @@
 
-
-
 body {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     display: flex;
@@ -100,3 +98,21 @@ body {
     text-decoration: none;
 }
 
+
+/* Media query para pantallas pequeñas (dispositivos móviles) */
+@media (max-width: 600px) {
+    #header h1 {
+        font-size: 35px; /* Ajusta el tamaño de la fuente para móviles */
+    }
+    .objetivo {
+        font-size: 16px; /* Ajusta el tamaño de la fuente */
+        padding: 15px; /* Ajusta el padding */
+    }
+    .images img {
+        max-width: 100%; /* Asegura que la imagen no exceda el ancho de la pantalla */
+    }
+    .volver {
+        font-size: 12px; /* Reduce el tamaño de la fuente */
+        padding: 8px; /* Ajusta el padding */
+}
+}
